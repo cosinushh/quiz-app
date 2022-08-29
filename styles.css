@@ -153,6 +153,7 @@ nav li {
   padding: 25px;
   border-radius: 10px;
   text-align: center;
+  position: relative;
 }
 
 .question-card-question {
@@ -192,6 +193,10 @@ nav li {
   content: "#";
 }
 
-.bookmark-empty {
-  color: red;
+.fa-regular {
+  color: #d3f36b;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -6px;
+  right: 30px;
 }
