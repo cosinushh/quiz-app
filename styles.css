@@ -116,13 +116,37 @@ h1 {
   border-bottom: solid 1px #e5e5e5;
 }
 
+p {
+  margin: 0;
+}
+
+/* Navigation */
+
 nav {
   width: 100%;
   position: fixed;
   bottom: 0;
+  border-top: solid 1px #e5e5e5;
+  background-color: #f7f6f0;
+  z-index: 10;
 }
 
-ul {
+.nav-element {
+  flex-grow: 1;
+  padding: 10px 10px 15px 10px;
+  text-align: center;
+}
+
+.nav-icon {
+  color: #24282c;
+  font-size: 1.5rem;
+}
+
+.nav-element:hover {
+  background-color: #d3f36b;
+}
+
+.navbar {
   color: #24282c;
   font-family: "Montserrat";
   font-weight: 300;
@@ -134,24 +158,7 @@ ul {
   padding: 0;
 }
 
-p {
-  margin: 0;
-}
-
-nav li {
-  flex-grow: 1;
-  padding: 10px 10px 15px 10px;
-  background-color: #fff;
-}
-
-.nav-home {
-}
-
-.nav-bookmarks {
-}
-
-.nav-profile {
-}
+/* Question Card */
 
 .question-card {
   background-color: #24282c;
@@ -169,20 +176,15 @@ nav li {
   padding: 15px;
 }
 
-.btn-answer {
-  background-color: #d3f36b;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  margin: 30px;
+.btn-bookmark {
+  background: none;
   border: none;
-  border-radius: 2px;
-  padding: 10px 20px;
-}
-
-.upper {
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  padding: 0;
+  color: #d3f36b;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -6px;
+  right: 30px;
 }
 
 .tags {
@@ -190,6 +192,7 @@ nav li {
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
+  list-style: none;
 }
 
 .single-tag {
@@ -204,10 +207,18 @@ nav li {
   content: "#";
 }
 
-.fa-bookmark {
-  color: #d3f36b;
-  font-size: 1.5rem;
-  position: absolute;
-  top: -6px;
-  right: 30px;
+.btn-answer {
+  background-color: #d3f36b;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  margin: 30px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.upper {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
