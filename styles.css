@@ -3,3 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
+
+nav {
+  background-color: blue;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
