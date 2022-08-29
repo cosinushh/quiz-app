@@ -91,6 +91,7 @@ body {
   margin: 100px 0;
   background-color: #f7f6f0;
   font-family: "Montserrat";
+  color: #24282c;
 }
 
 h1 {
@@ -124,8 +125,6 @@ ul {
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -149,17 +148,46 @@ nav li {
 }
 
 .question-card {
-  background-color: #fff;
+  background-color: #24282c;
   margin: 50px;
   padding: 25px;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.question-card p {
-  font-weight: 200;
+.question-card-question {
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.85rem;
 }
 
 .btn-answer {
+  background-color: #d3f36b;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  margin: 30px;
+}
+
+.upper {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.single-tag {
+  background-color: #d3f36b;
+  color: #24282c;
+  font-size: 0.7rem;
+  padding: 2px 6px 2px 6px;
+  border-radius: 3px;
+}
+
+.single-tag::before {
+  content: "#";
 }
