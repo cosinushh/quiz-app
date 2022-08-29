@@ -105,7 +105,7 @@ h1 {
 }
 
 .title {
-  background-color: #fff;
+  background-color: #f7f6f0;
   width: 100%;
   position: fixed;
   top: 0;
@@ -113,6 +113,7 @@ h1 {
   display: flex;
   justify-content: center;
   z-index: 10;
+  border-bottom: solid 1px #e5e5e5;
 }
 
 nav {
@@ -140,7 +141,7 @@ p {
 nav li {
   flex-grow: 1;
   padding: 10px 10px 15px 10px;
-  background-color: gray;
+  background-color: #fff;
 }
 
 .nav-home {
