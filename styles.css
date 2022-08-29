@@ -179,6 +179,14 @@ nav {
   padding: 15px;
 }
 
+.question-card-answer {
+  color: #d3f36b;
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+  padding: 15px;
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
