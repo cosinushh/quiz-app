@@ -104,6 +104,10 @@ h1 {
   letter-spacing: 0.3rem;
 }
 
+p {
+  margin: 0;
+}
+
 .title {
   background-color: #f7f6f0;
   width: 100%;
@@ -114,10 +118,6 @@ h1 {
   justify-content: center;
   z-index: 10;
   border-bottom: solid 1px #e5e5e5;
-}
-
-p {
-  margin: 0;
 }
 
 /* Navigation */
@@ -176,17 +176,6 @@ nav {
   padding: 15px;
 }
 
-.btn-bookmark {
-  background: none;
-  border: none;
-  padding: 0;
-  color: #d3f36b;
-  font-size: 1.5rem;
-  position: absolute;
-  top: -6px;
-  right: 30px;
-}
-
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -216,9 +205,17 @@ nav {
   border: none;
   border-radius: 2px;
   padding: 10px 20px;
-}
-
-.upper {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+}
+
+.btn-bookmark {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #d3f36b;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -6px;
+  right: 30px;
 }
