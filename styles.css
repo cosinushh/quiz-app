@@ -97,9 +97,16 @@ body {
 h1 {
   color: #24282c;
   margin: 10px 0 0 0;
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+h2 {
+  color: #24282c;
+  font-weight: 300;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
@@ -234,13 +241,43 @@ nav {
 /* Profile */
 
 .profile {
+  color: #24282c;
+  margin: 50px;
+}
+
+.profile-wrapper {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .profile-img {
+  border-radius: 100%;
+  margin-right: 20px;
+  width: 100px;
 }
 
 .profile-name {
+  background-color: #d3f36b;
+  color: #24282c;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 1.5rem;
 }
 
-.about-me {
+.about {
+  margin-top: 30px;
+}
+
+.about-text {
+  font-weight: 200;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.settings {
+  color: #24282c;
+  margin: 50px;
 }
