@@ -88,8 +88,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 100px 0;
   background-color: #f7f6f0;
+  font-family: "Montserrat";
 }
 
 h1 {
@@ -106,6 +107,7 @@ h1 {
   background-color: #fff;
   width: 100%;
   position: fixed;
+  top: 0;
   padding: 10px 25px 15px 25px;
   display: flex;
   justify-content: center;
@@ -144,4 +146,20 @@ nav li {
 }
 
 .nav-profile {
+}
+
+.question-card {
+  background-color: #fff;
+  margin: 50px;
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.question-card p {
+  font-weight: 200;
+}
+
+.btn-answer {
 }
