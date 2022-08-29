@@ -191,3 +191,7 @@ nav li {
 .single-tag::before {
   content: "#";
 }
+
+.bookmark-empty {
+  color: red;
+}
