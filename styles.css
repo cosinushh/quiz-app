@@ -115,18 +115,26 @@ nav {
   width: 100%;
   position: absolute;
   bottom: 0;
-  display: flex;
-  justify-content: space-between;
+}
+
+ul {
+  color: #24282c;
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav div {
+nav li {
   flex-grow: 1;
   padding: 10px 10px 15px 10px;
+  background-color: gray;
 }
 
 .nav-home {
