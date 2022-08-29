@@ -132,6 +132,10 @@ ul {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 nav li {
   flex-grow: 1;
   padding: 10px 10px 15px 10px;
@@ -151,7 +155,7 @@ nav li {
   background-color: #24282c;
   margin: 50px;
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 3px;
   text-align: center;
   position: relative;
 }
@@ -160,14 +164,18 @@ nav li {
   color: #fff;
   font-weight: 300;
   font-size: 0.85rem;
+  padding: 15px;
 }
 
 .btn-answer {
   background-color: #d3f36b;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   margin: 30px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
 }
 
 .upper {
@@ -179,14 +187,15 @@ nav li {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 15px;
 }
 
 .single-tag {
-  background-color: #d3f36b;
-  color: #24282c;
+  background-color: #3e444a;
+  color: #d3f36b;
   font-size: 0.7rem;
-  padding: 2px 6px 2px 6px;
-  border-radius: 3px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 1px;
 }
 
 .single-tag::before {
