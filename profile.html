@@ -10,31 +10,29 @@
   </head>
   <body>
     <header class="title">
-      <h1>Quiz App</h1>
+      <h1 class="title__headline">Quiz App</h1>
     </header>
 
     <article class="profile">
-      <figure class="profile-wrapper">
+      <figure class="profile__user">
         <img
           src="/img/profile-img.jpg"
           alt="Profile Picture"
-          class="profile-img"
+          class="profile__user-img"
         />
-        <figcaption class="profile-name">Max Doe</figcaption>
+        <figcaption class="profile__user-name">Max Doe</figcaption>
       </figure>
-      <section class="about">
-        <h2>About me</h2>
-        <p class="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quaerat
-          nihil. Voluptatum quos quasi mollitia expedita, ullam unde maxime
-          explicabo omnis, minima deleniti, possimus voluptatibus? Ipsa,
-          suscipit omnis. Rem, quisquam.
-        </p>
-        <div class="counter">
-          <p class="counter-questions">001</p>
-          <p class="counter-bookmarks">002</p>
-        </div>
-      </section>
+      <h2 class="profile__about-headline">About me</h2>
+      <p class="profile__about-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quaerat
+        nihil. Voluptatum quos quasi mollitia expedita, ullam unde maxime
+        explicabo omnis, minima deleniti, possimus voluptatibus? Ipsa, suscipit
+        omnis. Rem, quisquam.
+      </p>
+      <div class="profile__counters">
+        <p class="profile__counter-item profile__counter-item--question">12</p>
+        <p class="profile__counter-item profile__counter-item--bookmark">4</p>
+      </div>
     </article>
 
     <section class="settings">
@@ -45,21 +43,21 @@
       </div>
     </section>
 
-    <nav>
-      <ul class="navbar">
-        <li class="nav-element">
+    <nav class="navbar">
+      <ul class="navbar__menu">
+        <li class="navbar__menu-item">
           <a href="index.html" aria-label="Home"
-            ><i class="fa-solid fa-house nav-icon"></i
+            ><i class="navbar__icon fa-solid fa-house"></i
           ></a>
         </li>
-        <li class="nav-element">
+        <li class="navbar__menu-item">
           <a href="bookmarks.html" aria-label="Bookmarks"
-            ><i class="fa-solid fa-bookmark nav-icon"></i
+            ><i class="navbar__icon fa-solid fa-bookmark"></i
           ></a>
         </li>
-        <li class="nav-element">
+        <li class="navbar__menu-item">
           <a href="profile.html" aria-label="Profile"
-            ><i class="fa-solid fa-user nav-icon"></i
+            ><i class="navbar__icon fa-solid fa-user"></i
           ></a>
         </li>
       </ul>
