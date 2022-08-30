@@ -277,6 +277,31 @@ nav {
   line-height: 1.4;
 }
 
+.counter {
+}
+
+.counter-questions {
+  border: solid 1px #b2aea9;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
+.counter-questions::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f059";
+  color: #24282c;
+  padding: 0 10px 0 5px;
+  /* border: solid 1px #b2aea9;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 0.85rem; */
+}
+
+.counter-bookmarks {
+}
+
 .settings {
   color: #24282c;
   margin: 50px;
