@@ -94,7 +94,21 @@ body {
   color: #24282c;
 }
 
-h1 {
+/* Title */
+
+.title {
+  background-color: #f7f6f0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px 25px 15px 25px;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title__headline {
   color: #24282c;
   margin: 10px 0 0 0;
   font-weight: 500;
@@ -113,18 +127,6 @@ h2 {
 
 p {
   margin: 0;
-}
-
-.title {
-  background-color: #f7f6f0;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  padding: 10px 25px 15px 25px;
-  display: flex;
-  justify-content: center;
-  z-index: 10;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation */
