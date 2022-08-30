@@ -1,5 +1,7 @@
-const buttonBookmark = document.querySelector('[data-js="btn-bookmark"]');
-const bookmarkElement = document.querySelector('[data-js="bookmark-element"]');
+const buttonBookmark = document.querySelector('[data-js="card__bookmark"]');
+const bookmarkElement = document.querySelector(
+  '[data-js="card__bookmark-icon"]'
+);
 
 buttonBookmark.addEventListener("click", () => {
   console.log("Button bookmark clicked");
