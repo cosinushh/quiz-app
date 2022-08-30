@@ -1,0 +1,69 @@
+.card {
+  background-color: #24282c;
+  margin: 50px;
+  padding: 25px;
+  border-radius: 3px;
+  text-align: center;
+  position: relative;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card__bookmark {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #d3f36b;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -6px;
+  right: 30px;
+}
+
+.card__question {
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  padding: 15px;
+}
+
+.card__answer-button {
+  background-color: #d3f36b;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  margin: 30px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.card__answer {
+  color: #d3f36b;
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+  padding: 15px;
+}
+
+.card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+  list-style: none;
+}
+
+.card__single-tag {
+  background-color: #3e444a;
+  color: #d3f36b;
+  font-size: 0.7rem;
+  padding: 6px 12px 6px 12px;
+  border-radius: 1px;
+}
+
+.card__single-tag::before {
+  content: "#";
+}

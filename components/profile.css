@@ -1,0 +1,68 @@
+.profile {
+  color: #24282c;
+  margin: 50px;
+}
+
+.profile__user {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile__user-img {
+  border-radius: 100%;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.profile__user-name {
+  background-color: #d3f36b;
+  color: #24282c;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 1.5rem;
+}
+
+.profile__about-headline {
+  margin-top: 30px;
+}
+
+.profile__about-text {
+  font-weight: 200;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.profile__counters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.profile__counter-item {
+  border: solid 1px #b2aea9;
+  border-radius: 5px;
+  min-width: 75px;
+  text-align: center;
+  padding: 5px 10px 5px 5px;
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
+.profile__counter-item::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #24282c;
+  padding: 0 10px 0 5px;
+}
+
+.profile__counter-item--question::before {
+  content: "\f059";
+}
+
+.profile__counter-item--bookmark::before {
+  content: "\f02e";
+}
