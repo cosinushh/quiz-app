@@ -1,3 +1,5 @@
+/* PROFILE */
+
 .profile {
   margin: 50px;
 }
@@ -23,11 +25,15 @@
   font-size: 1.5rem;
 }
 
-.profile__about-headline {
+.profile__headline {
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
   margin-top: 30px;
 }
 
-.profile__about-text {
+.profile__text {
   font-weight: 200;
   font-size: 0.85rem;
   line-height: 1.4;
@@ -56,10 +62,24 @@
   padding: 0 10px 0 5px;
 }
 
-.profile__counter-item--question::before {
+.profile--question::before {
   content: "\f059";
 }
 
-.profile__counter-item--bookmark::before {
+.profile--bookmark::before {
   content: "\f02e";
+}
+
+/* SETTINGS */
+
+.settings {
+  margin: 50px;
+}
+
+.settings__headline {
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-top: 30px;
 }

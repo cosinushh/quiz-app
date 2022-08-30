@@ -27,6 +27,10 @@
   padding: 15px;
 }
 
+.card--hidden {
+  display: none;
+}
+
 .card__answer-button {
   background-color: var(--accent-color);
   font-family: "Montserrat";

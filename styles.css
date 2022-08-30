@@ -95,24 +95,11 @@
 
 body {
   margin: 100px 0;
-  background-color: #f7f6f0;
+  background-color: var(--background-color);
   font-family: "Montserrat";
   color: var(--dark-color);
 }
 
-h2 {
-  font-weight: 300;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-}
-
 p {
   margin: 0;
-}
-
-/* Muss noch in Profile: */
-.settings {
-  color: #24282c;
-  margin: 50px;
 }
