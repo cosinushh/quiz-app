@@ -1,5 +1,5 @@
 .card {
-  background-color: #24282c;
+  background-color: var(--dark-color);
   margin: 50px;
   padding: 25px;
   border-radius: 3px;
@@ -12,7 +12,7 @@
   background: none;
   border: none;
   padding: 0;
-  color: #d3f36b;
+  color: var(--accent-color);
   font-size: 1.5rem;
   position: absolute;
   top: -6px;
@@ -28,7 +28,7 @@
 }
 
 .card__answer-button {
-  background-color: #d3f36b;
+  background-color: var(--accent-color);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -41,7 +41,7 @@
 }
 
 .card__answer {
-  color: #d3f36b;
+  color: var(--accent-color);
   font-weight: 300;
   font-size: 0.95rem;
   line-height: 1.4rem;
@@ -49,6 +49,7 @@
 }
 
 .card__tags {
+  color: var(--accent-color);
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -58,7 +59,6 @@
 
 .card__single-tag {
   background-color: #3e444a;
-  color: #d3f36b;
   font-size: 0.7rem;
   padding: 6px 12px 6px 12px;
   border-radius: 1px;

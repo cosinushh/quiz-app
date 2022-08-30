@@ -1,5 +1,4 @@
 .profile {
-  color: #24282c;
   margin: 50px;
 }
 
@@ -18,8 +17,7 @@
 }
 
 .profile__user-name {
-  background-color: #d3f36b;
-  color: #24282c;
+  background-color: var(--accent-color);
   padding: 10px;
   border-radius: 2px;
   font-size: 1.5rem;
@@ -43,7 +41,7 @@
 }
 
 .profile__counter-item {
-  border: solid 1px #b2aea9;
+  border: solid 1px var(--border-color);
   border-radius: 5px;
   min-width: 75px;
   text-align: center;
@@ -55,7 +53,6 @@
 .profile__counter-item::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: #24282c;
   padding: 0 10px 0 5px;
 }
 

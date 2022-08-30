@@ -2,6 +2,7 @@
 @import url(/components/navbar.css);
 @import url(/components/title.css);
 @import url(/components/profile.css);
+@import url(/components/global.css);
 
 /* montserrat-100 - latin */
 @font-face {
@@ -96,11 +97,10 @@ body {
   margin: 100px 0;
   background-color: #f7f6f0;
   font-family: "Montserrat";
-  color: #24282c;
+  color: var(--dark-color);
 }
 
 h2 {
-  color: #24282c;
   font-weight: 300;
   font-size: 1.3rem;
   text-transform: uppercase;
