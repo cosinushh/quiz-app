@@ -94,10 +94,20 @@
 }
 
 body {
-  margin: 100px 0;
   background-color: var(--background-color);
-  font-family: "Montserrat";
   color: var(--dark-color);
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 60px 1fr 60px;
+}
+
+.content {
+  overflow-y: auto;
 }
 
 p {

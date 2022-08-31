@@ -9,36 +9,40 @@
     <link rel="stylesheet" href="/fonts/fontawesome/css/all.min.css" />
     <script src="/js/index.js" defer></script>
   </head>
-  <body>
+  <body class="container">
+    
     <header class="title">
       <h1 class="title__headline">Quiz App</h1>
     </header>
-
-    <section class="card">
-      <button class="card__bookmark" data-js="card__bookmark" aria-label="Bookmark this question"><i class="fa-regular fa-bookmark" data-js="card__bookmark-icon"></i></button>
-      <p class="card__question">
-        What property flips the axes in flexbox?
-      </p>
-      <button class="card__answer-button">Show answer</button>
-      <p class="card__answer card--hidden">flex-direction</p>
-      <ul class="card__tags">
-        <li class="card__single-tag">html</p>
-        <li class="card__single-tag">flexbox</li>
-        <li class="card__single-tag">css</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <button class="card__bookmark" data-js="card__bookmark" aria-label="Bookmark this question"><i class="fa-regular fa-bookmark" data-js="card__bookmark-icon"></i></button>
-      <p class="card__question">What property flips the axes in flexbox?</p>
-      <button class="card__answer-button">Hide answer</button>
-      <p class="card__answer">flex-direction</p>
-      <ul class="card__tags">
-        <li class="card__single-tag">html</p>
-        <li class="card__single-tag">flexbox</li>
-        <li class="card__single-tag">css</li>
-      </ul>
-    </section>
+    
+    <main class="content">
+      <section class="card">
+        <button class="card__bookmark" data-js="card__bookmark" aria-label="Bookmark this question"><i class="fa-regular fa-bookmark" data-js="card__bookmark-icon"></i></button>
+        <p class="card__question">
+          What property flips the axes in flexbox?
+        </p>
+        <button class="card__answer-button">Show answer</button>
+        <p class="card__answer card--hidden">flex-direction</p>
+        <ul class="card__tags">
+          <li class="card__single-tag">html</p>
+          <li class="card__single-tag">flexbox</li>
+          <li class="card__single-tag">css</li>
+        </ul>
+      </section>
+  
+      <section class="card">
+        <button class="card__bookmark" data-js="card__bookmark" aria-label="Bookmark this question"><i class="fa-regular fa-bookmark" data-js="card__bookmark-icon"></i></button>
+        <p class="card__question">What property flips the axes in flexbox?</p>
+        <button class="card__answer-button">Hide answer</button>
+        <p class="card__answer">flex-direction</p>
+        <ul class="card__tags">
+          <li class="card__single-tag">html</p>
+          <li class="card__single-tag">flexbox</li>
+          <li class="card__single-tag">css</li>
+        </ul>
+      </section>
+    </main>
+    
 
     <nav class="navbar">
       <ul class="navbar__menu">
