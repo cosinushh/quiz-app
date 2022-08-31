@@ -103,11 +103,12 @@ body {
 .container {
   display: grid;
   height: 100vh;
-  grid-template-rows: 60px 1fr 60px;
+  grid-template-rows: 48px 1fr 60px;
 }
 
 .content {
   overflow-y: auto;
+  padding: 30px 50px;
 }
 
 p {

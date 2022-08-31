@@ -1,16 +1,12 @@
 .title {
-  background-color: var(--background-color);
-  width: 100%;
-  padding: 10px 25px 15px 25px;
-  display: flex;
-  justify-content: center;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
 }
 
 .title__headline {
-  margin: 10px 0 0 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
-  text-transform: uppercase;
   letter-spacing: 0.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
 }
