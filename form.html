@@ -10,12 +10,49 @@
     <script src="/js/form.js" defer></script>
   </head>
   <body class="container">
-    
     <header class="title">
       <h1 class="title__headline">Quiz Form</h1>
     </header>
-    
+
     <main class="content">
+      <section>
+        <form class="question-form" data-js="question-form">
+          <label class="question-form__label" for="question-input"
+            >Your new question:</label
+          >
+          <textarea
+            name="questionInput"
+            id="question-input"
+            data-js="question-input"
+            rows="5"
+          ></textarea>
+          <label class="question-form__label" for="answer-input"
+            >Your answer:</label
+          >
+          <textarea
+            name="answerInput"
+            id="answer-input"
+            data-js="answer-input"
+            rows="5"
+          ></textarea>
+          <label class="question-form__label" for="tag-input">Your tag:</label>
+          <input
+            type="text"
+            name="tagInput"
+            id="tag-input"
+            data-js="tag-input"
+          />
+          <button
+            type="submit"
+            class="card__answer-button"
+            data-js="question-form__button"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+      <section class="cards-container" data-js="cards-container"></section>
+      <!--       
       <section class="card">
         <button class="card__bookmark" data-js="card__bookmark" aria-label="Bookmark this question"><i class="fa-regular fa-bookmark" data-js="card__bookmark-icon"></i></button>
         <p class="card__question">
@@ -41,25 +78,38 @@
           <li class="card__single-tag">css</li>
         </ul>
       </section>
+       -->
     </main>
-    
 
     <nav class="navbar">
       <ul class="navbar__menu">
-        <li >
-            <a class="navbar__menu-item" href="index.html" aria-label="Home"><i class="navbar__icon fa-solid fa-house"></i></a>
+        <li>
+          <a class="navbar__menu-item" href="index.html" aria-label="Home"
+            ><i class="navbar__icon fa-solid fa-house"></i
+          ></a>
         </li>
         <li>
-            <a class="navbar__menu-item" href="bookmarks.html" aria-label="Bookmarks"><i class="navbar__icon fa-solid fa-bookmark"></i></a>
+          <a
+            class="navbar__menu-item"
+            href="bookmarks.html"
+            aria-label="Bookmarks"
+            ><i class="navbar__icon fa-solid fa-bookmark"></i
+          ></a>
         </li>
         <li>
-            <a class="navbar__menu-item" href="form.html" aria-label="Create cards form"><i class="navbar__icon fa-solid fa-circle-plus"></i></a>
+          <a
+            class="navbar__menu-item"
+            href="form.html"
+            aria-label="Create cards form"
+            ><i class="navbar__icon fa-solid fa-circle-plus"></i
+          ></a>
         </li>
         <li>
-            <a class="navbar__menu-item" href="profile.html" aria-label="Profile"><i class="navbar__icon fa-solid fa-user"></i></a>
+          <a class="navbar__menu-item" href="profile.html" aria-label="Profile"
+            ><i class="navbar__icon fa-solid fa-user"></i
+          ></a>
         </li>
       </ul>
     </nav>
-
   </body>
 </html>
